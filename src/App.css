@@ -32,6 +32,11 @@
   color:rgb(40, 36, 255);
 }
 
+.skill{
+  color:rgb(16, 71, 250);
+  margin: 10px;
+}
+
 .person{
   transition: transform 0.5s ease;
   -moz-transform: scaleX(-1);

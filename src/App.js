@@ -81,6 +81,19 @@ class App extends Component {
 							</div>
 						</article>
 
+						<article className="media notification">
+							<div className="media-content">
+								<div className="content">
+									<h1 className="title is-size-4">Skills</h1>
+									<i className="skill fab fa-4x fa-react fa-spin"></i>
+									<i className="skill fab fa-4x fa-js-square"></i>
+									<i className="skill fab fa-4x fa-node-js"></i>
+									<i className="skill fab fa-4x fa-git"></i>
+									<i className="skill fas fa-4x fa-database"></i>
+								</div>
+							</div>
+						</article>
+
 					</div>
 					<div className="column">
 
@@ -93,9 +106,31 @@ class App extends Component {
 {`{
 "fullName":"Mukhtar Musaev",
 "gender":"male",
+"birth_date":"1994-06-11",
+"height": "177cm",
+"right_handed": true,
+"birth_coords": "61.266235, 73.364072",
+"languages": [
+	"ru",
+	"en"
+],
 "phone":"+79821395289",
 "email":"mukhtarmusaev@yandex.ru",
-"birth_date":"1994-06-11"
+"url": "https://implicemon.github.io/",
+"activities": [
+	"programming",
+	"existence philosophy",
+	"PC gaming"
+],
+"skills": [
+	"React",
+	"JavaScript",
+	"Node.js",
+	"SQL (PostgreSQL)",
+	"NoSQL (MongoDB)",
+	"Git"
+]
+
 }`}
                   </pre>
                   </div>
