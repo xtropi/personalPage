@@ -2,7 +2,7 @@
   "name": "implicemon.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://implicemon.github.io/privatePage/",
+  "homepage": "https://implicemon.github.io/personalPage/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.2",
