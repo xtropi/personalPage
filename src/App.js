@@ -271,10 +271,10 @@ class App extends Component {
 
 <footer className="footer">
   <div className="content has-text-centered">
-      <a href="https://github.com/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-github-alt"></i></a>
-      <a href="https://vk.com/id243538645" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-vk"></i></a>
-      <a href="https://t.me/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-telegram-plane"></i></a>
-      <a href="mailto:mukhtarmusaev@yandex.ru" target="_blank" rel="noreferrer noopener"><i className="ic fas fa-4x fa-envelope"></i></a>
+      <a name="Github" href="https://github.com/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-github-alt"></i></a>
+      <a name="VK" href="https://vk.com/id243538645" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-vk"></i></a>
+      <a name="Telegram" href="https://t.me/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-telegram-plane"></i></a>
+      <a name="YMail" href="mailto:mukhtarmusaev@yandex.ru" target="_blank" rel="noreferrer noopener"><i className="ic fas fa-4x fa-envelope"></i></a>
       
   </div>
 </footer>
