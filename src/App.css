@@ -33,7 +33,7 @@
 }
 
 .skill{
-  color:rgb(16, 71, 250);
+  color:rgb(7, 121, 218); 
   margin: 10px;
 }
 
@@ -45,4 +45,10 @@
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
+}
+
+.skill-custom{
+  margin-top: 10px;
+  height: 64px;
+  max-width: 1000px;
 }

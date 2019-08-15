@@ -50,8 +50,14 @@ class App extends Component {
 							<div className="media-content">
               <h1 className="title is-size-4">Experience</h1>
               <ul>
+			  	<li>
+                  <span className="tag is-success" style={{minWidth: "100px", marginRight: "5px"}}>2019 - </span><br/>
+                  <a href="https://masterdata.ru/" target="_blank" rel="noreferrer noopener">Masterdata</a>
+                  <span> - </span>
+                  <span>Frontend developer</span>
+                </li>
                 <li>
-                  <span className="tag is-success" style={{minWidth: "100px", marginRight: "5px"}}>2017 - </span>
+                  <span className="tag is-info" style={{minWidth: "100px", marginRight: "5px"}}>2017 - 2019</span><br/>
                   <a href="https://www.surgutneftegas.ru/en/" target="_blank" rel="noreferrer noopener">Surgutneftegas</a>
                   <span> - </span>
                   <span>Software Engineer</span>
@@ -74,7 +80,9 @@ class App extends Component {
                   Russian education was not enough and since 2018 i explosively started to learn technologies i am interested in:<br/>
                   HTML, CSS, JS, WEB Frameworks and little bit artificial neural networks with machine learning.<br/><br/>
 
-                  Also unrelated with developing things:<br/>
+				  Later in 2019 i relocated to Moscow and now i'm developing enterprise front-end SAP UI5 applications with SAP Web IDE in SAP Cloud Platform.<br/><br/>
+
+                  Also, my unrelated with developing things:<br/>
                   Futures trading, reading books about business and personal effectiveness.<br/>
 									</p>
 								</div>
@@ -85,12 +93,14 @@ class App extends Component {
 							<div className="media-content">
 								<div className="content">
 									<h1 className="title is-size-4">Skills</h1>
+									<img className="skill-custom" src="img/sapui5.png"/>
+									<img className="skill-custom" src={"img/SAPCloud.svg"}/>
 									<i className="skill fab fa-4x fa-react fa-spin"></i>
 									<i className="skill fab fa-4x fa-js-square"></i>
 									<i className="skill fab fa-4x fa-node-js"></i>
 									<i className="skill fab fa-4x fa-git"></i>
 									<i className="skill fas fa-4x fa-database"></i>
-								</div>
+									</div>
 							</div>
 						</article>
 
@@ -128,7 +138,10 @@ class App extends Component {
 	"Node.js",
 	"SQL (PostgreSQL)",
 	"NoSQL (MongoDB)",
-	"Git"
+	"Git",
+	"SAP UI5",
+	"SAP Cloud Platform",
+	"Atlassian Jira/Confluence"
 ]
 
 }`}
