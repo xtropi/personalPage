@@ -34,8 +34,8 @@ class App extends Component {
 
 						<article className="media notification">
 							<div className="media-content">
-                <figure className="image is-128x128 person">
-                  <img className="" src="img/person2.png" alt="thats me =)"/>
+                <figure className="image is-128x128">
+                  <img className="person" src="img/person.jpeg" alt="thats me =)"/>
                 </figure>
                 <br/><br/>
                 <div className="has-text-left is-size-4">
