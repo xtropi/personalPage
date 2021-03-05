@@ -12,11 +12,11 @@ import Contacts from './components/Contacts/Contacts'
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
+	return (
+	  <div className="App">
 
 
-    <section className="hero">
+	<section className="hero">
 			<div className="hero-body">
 				<div className="container">
 					<figure className="image center logo is-size-2">
@@ -31,38 +31,43 @@ class App extends Component {
 			<div className="container">
 				<div className="columns">
 					<div className="column is-one-fifth-desktop">
-
 						<article className="media notification">
 							<div className="media-content">
-                <figure className="image is-128x128">
-                  <img className="person" src="img/person.jpeg" alt="thats me =)"/>
-                </figure>
-                <br/><br/>
-                <div className="has-text-left is-size-4">
-                  Musaev
-                  Mukhtar
-                  Ruslanovich
-					      </div>
+				<figure className="image is-128x128">
+				  <img className="person" src="img/person.jpeg" alt="thats me =)"/>
+				</figure>
+				<br/><br/>
+				<div className="has-text-left is-size-4">
+				  Musaev
+				  Mukhtar
+				  Ruslanovich
+						  </div>
 							</div>
 						</article>
 
-            <article className="media notification">
+			<article className="media notification">
 							<div className="media-content">
-              <h1 className="title is-size-4">Experience</h1>
-              <ul>
+			  <h1 className="title is-size-4">Experience</h1>
+			  <ul>
+			 	<li>
+				  <span className="tag is-success" style={{minWidth: "100px", marginRight: "5px"}}>2020 - now</span><br/>
+				  <a href="https://sberbank.ru/" target="_blank" rel="noreferrer noopener">Sberbank</a>
+				  <span> - </span><br/>
+				  <span>Lead developer</span>
+				</li>
 			  	<li>
-                  <span className="tag is-success" style={{minWidth: "100px", marginRight: "5px"}}>2019 - </span><br/>
-                  <a href="https://masterdata.ru/" target="_blank" rel="noreferrer noopener">Masterdata</a>
-                  <span> - </span>
-                  <span>Frontend developer</span>
-                </li>
-                <li>
-                  <span className="tag is-info" style={{minWidth: "100px", marginRight: "5px"}}>2017 - 2019</span><br/>
-                  <a href="https://www.surgutneftegas.ru/en/" target="_blank" rel="noreferrer noopener">Surgutneftegas</a>
-                  <span> - </span>
-                  <span>Software Engineer</span>
-                </li>
-              </ul>
+				  <span className="tag is-info" style={{minWidth: "100px", marginRight: "5px"}}>2019 - 2020</span><br/>
+				  <a href="https://masterdata.ru/" target="_blank" rel="noreferrer noopener">Masterdata</a>
+				  <span> - </span>
+				  <span>Frontend developer</span>
+				</li>
+				<li>
+				  <span className="tag is-info" style={{minWidth: "100px", marginRight: "5px"}}>2017 - 2019</span><br/>
+				  <a href="https://www.surgutneftegas.ru/en/" target="_blank" rel="noreferrer noopener">Surgutneftegas</a>
+				  <span> - </span>
+				  <span>Software Engineer</span>
+				</li>
+			  </ul>
 							</div>
 						</article>
 
@@ -75,15 +80,15 @@ class App extends Component {
 								<div className="content">
 									<h1 className="title is-size-4">Bio</h1>
 									<p className="">
-                  In 2015 i received a bachelor's degree in applied mathematics and informatics in Surgut State University.<br/><br/>
+				  In 2015 i received a bachelor's degree in <b>"Applied mathematics and informatics"</b> in Surgut State University.<br/><br/>
 
-                  Russian education was not enough and since 2018 i explosively started to learn technologies i am interested in:<br/>
-                  HTML, CSS, JS, WEB Frameworks and little bit artificial neural networks with machine learning.<br/><br/>
+				  Standard education was not enough and since 2017 i explosively started to learn technologies and businesses i am interested in:<br/>
+				  HTML, CSS, JS, WEB Frameworks and little bit artificial neural networks with machine learning.<br/><br/>
 
 				  Later in 2019 i relocated to Moscow and now i'm developing enterprise front-end SAP UI5 applications with SAP Web IDE in SAP Cloud Platform.<br/><br/>
 
-                  Also, my unrelated with developing things:<br/>
-                  Futures trading, reading books about business and personal effectiveness.<br/>
+				  Also, my unrelated with developing things:<br/>
+				  Futures trading, investing, reading books about business and personal effectiveness.<br/>
 									</p>
 								</div>
 							</div>
@@ -112,7 +117,7 @@ class App extends Component {
 								<div className="content">
 									<h1 className="title is-size-4">Parsable bio</h1>
 									<div>
-                  <pre>
+				  <pre>
 {`{
 "fullName":"Mukhtar Musaev",
 "gender":"male",
@@ -145,8 +150,8 @@ class App extends Component {
 ]
 
 }`}
-                  </pre>
-                  </div>
+				  </pre>
+				  </div>
 								</div>
 							</div>
 						</article>
@@ -274,27 +279,27 @@ class App extends Component {
 
 
 
-        {/* <Main />
-        <Experience />
-        <Bio />
-        <PBio />
-        <Contacts /> */}
+		{/* <Main />
+		<Experience />
+		<Bio />
+		<PBio />
+		<Contacts /> */}
 
 
 
 <footer className="footer">
   <div className="content has-text-centered">
-      <a name="Github" href="https://github.com/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-github-alt"></i></a>
-      <a name="VK" href="https://vk.com/id243538645" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-vk"></i></a>
-      <a name="Telegram" href="https://t.me/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-telegram-plane"></i></a>
-      <a name="YMail" href="mailto:mukhtarmusaev@yandex.ru" target="_blank" rel="noreferrer noopener"><i className="ic fas fa-4x fa-envelope"></i></a>
-      
+	  <a name="Github" href="https://github.com/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-github-alt"></i></a>
+	  <a name="VK" href="https://vk.com/id243538645" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-vk"></i></a>
+	  <a name="Telegram" href="https://t.me/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-telegram-plane"></i></a>
+	  <a name="YMail" href="mailto:mukhtarmusaev@yandex.ru" target="_blank" rel="noreferrer noopener"><i className="ic fas fa-4x fa-envelope"></i></a>
+	  
   </div>
 </footer>
 
 
-      </div>
-    );
+	  </div>
+	);
   }
 }
 
