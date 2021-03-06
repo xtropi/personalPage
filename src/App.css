@@ -28,6 +28,15 @@
   margin: 10px;
 }
 
+.ic.skill-custom{
+  filter: grayscale(100%);
+  margin: 5px;
+}
+
+.ic.skill-custom:hover{
+  filter: hue-rotate(260deg);
+}
+
 .ic:hover{
   color:rgb(40, 36, 255);
 }

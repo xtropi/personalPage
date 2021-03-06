@@ -133,8 +133,11 @@ class App extends Component {
 "email":"mukhtarmusaev@yandex.ru",
 "url": "https://implicemon.github.io/",
 "activities": [
-	"programming",
+	"web development",
+	"stocks investing",
+	"futures trading",
 	"existence philosophy",
+	"swimming",
 	"PC gaming"
 ],
 "skills": [
@@ -289,11 +292,12 @@ class App extends Component {
 
 <footer className="footer">
   <div className="content has-text-centered">
-	  <a name="Github" href="https://github.com/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-github-alt"></i></a>
-	  <a name="VK" href="https://vk.com/id243538645" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-vk"></i></a>
-	  <a name="Telegram" href="https://t.me/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-telegram-plane"></i></a>
-	  <a name="YMail" href="mailto:mukhtarmusaev@yandex.ru" target="_blank" rel="noreferrer noopener"><i className="ic fas fa-4x fa-envelope"></i></a>
-	  
+	<a name="LinkedIn" href="https://www.linkedin.com/in/mukhtar-musaev/" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-linkedin"></i></a>
+	<a name="HeadHunter" href="https://hh.ru/resume/6d53f19aff0716da560039ed1f76556f6e4855" target="_blank" rel="noreferrer noopener"><img className="ic skill-custom" src="img/hh.ru.png"/></a>
+	<a name="Github" href="https://github.com/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-github-alt"></i></a>
+	<a name="VK" href="https://vk.com/id243538645" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-vk"></i></a>
+	<a name="Telegram" href="https://t.me/iMpLicEMoN" target="_blank" rel="noreferrer noopener"><i className="ic fab fa-4x fa-telegram-plane"></i></a>
+	<a name="YMail" href="mailto:mukhtarmusaev@yandex.ru" target="_blank" rel="noreferrer noopener"><i className="ic fas fa-4x fa-envelope"></i></a>
   </div>
 </footer>
 
