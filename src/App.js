@@ -49,8 +49,14 @@ class App extends Component {
 							<div className="media-content">
 			  <h1 className="title is-size-4">Experience</h1>
 			  <ul>
+				<li>
+				  <span className="tag is-success" style={{minWidth: "100px", marginRight: "5px"}}>2021 - now</span><br/>
+				  <a href="https://www.raiffeisen.ru/" target="_blank" rel="noreferrer noopener">Raiffeisen</a>
+				  <span> - </span><br/>
+				  <span>Lead developer</span>
+				</li>
 			 	<li>
-				  <span className="tag is-success" style={{minWidth: "100px", marginRight: "5px"}}>2020 - now</span><br/>
+				  <span className="tag is-info" style={{minWidth: "100px", marginRight: "5px"}}>2020 - 2021</span><br/>
 				  <a href="https://sberbank.ru/" target="_blank" rel="noreferrer noopener">Sberbank</a>
 				  <span> - </span><br/>
 				  <span>Lead developer</span>
